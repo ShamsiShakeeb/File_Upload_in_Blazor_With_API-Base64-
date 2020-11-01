@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ibphGcn91laB22Qcu6GUamwb/nsET57EFXRZh+jxNjXFJ0GwqXfS/T/qZvLU/FSZUu9IhhZ3WKu3nteIgb8l+w==",
+  "success": true,
+  "projectFilePath": "D:\\Test Projects\\UploadFile\\UploadFile\\UploadFile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakas\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\jakas\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

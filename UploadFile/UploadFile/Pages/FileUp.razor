@@ -1,0 +1,22 @@
+﻿@page "/FileUp"
+@inject IJSRuntime JSRuntime
+@inject Data.IFileUpload fileups
+<h3>FileUp</h3>
+
+Choose File: <input type="file" id="myfile">
+
+<button type="button" class="btn btn-primary" @onclick="JavaScript">
+    JS and Blazor
+</button>
+
+
+@code{
+
+    public async Task  JavaScript()
+    {
+       var text  =  await JSRuntime.InvokeAsync<string>("getBase64");
+       fileups.getBase64(text);
+
+    }
+
+}
